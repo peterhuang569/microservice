@@ -22,4 +22,7 @@ public class DepartmentRepository {
                 .orElseThrow();
     }
 
+    public List<Department> findAll() {
+        return departments;
+    }
 }
